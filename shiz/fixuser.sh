@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ ! -z "${PUID}" ]]; then
 	export runcmd=echo
 	export old_id=$(id -u $1)
