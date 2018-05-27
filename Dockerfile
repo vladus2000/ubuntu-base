@@ -11,6 +11,7 @@ RUN \
 	echo alias 'cd..="cd .."' >> /etc/bash.bashrc && \
 	echo alias 'l="ls -CF"' >> /etc/bash.bashrc && \
 	echo alias 'la="ls -A"' >> /etc/bash.bashrc && \
+	echo alias 'll="ls -alF"' >> /etc/bash.bashrc && \
 	echo alias 'lld="ls -ald"' >> /etc/bash.bashrc && \
 	echo alias 'lrt="ls -lrt"' >> /etc/bash.bashrc && \
 	echo alias 'lrta="ls -lrta"' >> /etc/bash.bashrc && \
