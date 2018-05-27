@@ -2,7 +2,7 @@
 mkdir /etc/bash_completion.d
 rm /etc/apt/apt.conf.d/docker-clean
 /updatethis.sh
-apt-get install -y iproute2 vim wget bash_completion
+apt-get install -y iproute2 vim wget bash-completion
 echo . /etc/bash_completion >> /etc/bash.bashrc
 echo . /bashrc >> /etc/bash.bashrc
 echo

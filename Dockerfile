@@ -18,5 +18,5 @@ RUN \
 	echo alias 'netstat="ss"' >> /etc/bash.bashrc && \
 	chmod +x /*.sh
 
-CMD ["/bin/bash"]
+CMD /bin/bash -c /startup.sh
 
