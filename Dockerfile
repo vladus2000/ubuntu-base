@@ -15,6 +15,7 @@ RUN \
 	echo alias 'lrt="ls -lrt"' >> /etc/bash.bashrc && \
 	echo alias 'lrta="ls -lrta"' >> /etc/bash.bashrc && \
 	echo alias 'p="pgrep -af "' >> /etc/bash.bashrc && \
+	echo alias 'netstat="ss"' >> /etc/bash.bashrc && \
 	chmod +x /*.sh
 
 CMD ["/bin/bash"]
